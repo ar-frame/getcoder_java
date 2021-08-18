@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="GetCoder:jar">
+    <output-path>$PROJECT_DIR$/GetCoder_jar</output-path>
+    <root id="archive" name="GetCoder.jar">
+      <element id="module-output" name="GetCoder" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-codec-1.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
